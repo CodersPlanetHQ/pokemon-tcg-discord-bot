@@ -15,7 +15,6 @@ A Discord bot that allows users to interact with the Pokemon Trading Card Game (
 *   [Configuration](#configuration)
 *   [Usage](#usage)
     *   [Commands](#commands)
-    *   [Events](#events)
 *   [Contributing](#contributing)
 *   [License](#license)
 *   [Support](#support)
@@ -105,11 +104,6 @@ A Discord bot that allows users to interact with the Pokemon Trading Card Game (
 *   `/buy <card_id>`: Buy a card from the current market
 *   `/packs <card_id> <price>`: Sell a card on the current market.
 *   `/sell`: Simulates the opening of a virtual card pack.
-
-### Events
-
-*   **messageCreate (Card Drops):** Listens for new messages and triggers card drops based on a set probability.
-*   **interactionCreate (Commands):** Handles slash command interactions.
 
 ## Contributing
 
